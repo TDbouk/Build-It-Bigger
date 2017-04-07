@@ -1,4 +1,5 @@
-# Gradle for Android and Java Final Project
+# Build-It-Bigger
+Android Developer Nanodegree - Gradle for Android and Java Course - Project #4
 
 In this project, you will create an app with multiple flavors that uses
 multiple libraries and Google Cloud Endpoints. The finished app will consist
