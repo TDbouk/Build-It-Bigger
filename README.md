@@ -16,12 +16,13 @@ You can run an automated test that will hook up everything together including st
 `gradlew tieItAllTogether`
 
 ### Installing and Deployment
-1. Import the project to your Android Studio
+1. Import the project to your Android Studio  
 2. Build the project
 
 In the `doInBackground` method of GetJokeFromBackEndTask class, change the **rootUrl** to include your local IP or use 10.0.2.2 if you are testing against an emulator. 
 
-```MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
+```
+MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(),
                     new AndroidJsonFactory(), null)
                     .setRootUrl("http:/my_computer_address:8080/_ah/api/")
                     .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
@@ -29,8 +30,10 @@ In the `doInBackground` method of GetJokeFromBackEndTask class, change the **roo
                         public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {
                             abstractGoogleClientRequest.setDisableGZipContent(true);
                         }
-                    });```
-                    
+                    });
+
+```
+
 3. Select the backend run configuration and run it
 2. Build the app and install the APK on your device or an emulator
                  
@@ -42,7 +45,7 @@ In the `doInBackground` method of GetJokeFromBackEndTask class, change the **roo
 Pull requests are gracefully accepted. 
 
 ### License
-The project is licensed under the MIT License - see LICENSE.txt file for detail.
+The project is licensed under the MIT License - see [LICENSE.txt](LICENSE.txt) file for detail.
 
 ### Acknowledgments
 Setting up the GCE [tutorial](https://github.com/GoogleCloudPlatform/gradle-appengine-templates/tree/master/HelloEndpoints)
