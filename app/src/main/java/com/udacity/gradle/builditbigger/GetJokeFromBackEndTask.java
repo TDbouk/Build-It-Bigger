@@ -52,10 +52,8 @@ public class GetJokeFromBackEndTask extends AsyncTask<Void, Object,
                             abstractGoogleClientRequest.setDisableGZipContent(true);
                         }
                     });
-/*
-            MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
-                    .setRootUrl("myDeployedBackEnd.appspot.com/_ah/api/");
-*/
+    /*        MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
+                    .setRootUrl("https://myProjectID.appspot.com/_ah/api/");*/
 
             myApiService = builder.build();
         }
