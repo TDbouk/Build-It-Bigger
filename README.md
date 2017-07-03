@@ -8,6 +8,13 @@ Gradle is used to add and set up the build to share code between the app's free 
 ## Getting Started
 The below instruction will get you a copy of the project up and running on your machine for development and testing purposes.
 
+## Screenshots
+### Portrait ##
+<img src="screenshots/build_it_bigger_port.png" width="250"> <img src="screenshots/build_it_bigger_port_2.png" width="250">
+
+### Landscape ###
+<img src="screenshots/build_it_bigger_land.png" width="450">
+
 ### Prerequisites
 Android Studio including SDK version 25 and build tools version 25.0.2.  
 You can always update to the latest versions. 
