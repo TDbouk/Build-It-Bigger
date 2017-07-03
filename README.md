@@ -10,7 +10,7 @@ The below instruction will get you a copy of the project up and running on your 
 
 ## Screenshots
 ### Portrait ##
-<<<<<<< HEAD
+
 <img src="screenshots/build_it_bigger_port.png" width="250"> <img src="screenshots/build_it_bigger_port_2.png" width="250">
 
 ### Landscape ###
