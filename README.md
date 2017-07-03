@@ -10,10 +10,17 @@ The below instruction will get you a copy of the project up and running on your 
 
 ## Screenshots
 ### Portrait ##
+<<<<<<< HEAD
 <img src="screenshots/build_it_bigger_port.png" width="250"> <img src="screenshots/build_it_bigger_port_2.png" width="250">
 
 ### Landscape ###
 <img src="screenshots/build_it_bigger_land.png" width="450">
+=======
+<img src="screenshots/build_it_bigger_port.png"> <img src="screenshots/build_it_bigger_port_2.png">
+
+### Landscape ###
+<img src="screenshots/build_it_bigger_land.png">
+>>>>>>> 4d09e16a1803054452f2a62c541d4685458e9951
 
 ### Prerequisites
 Android Studio including SDK version 25 and build tools version 25.0.2.  
